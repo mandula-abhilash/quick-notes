@@ -37,9 +37,13 @@ exit
 `sudo vi /etc/mongod.conf`
 
 Update 
-`bindIp: 127.0.0.1` 
-to 
-`bindIp: 127.0.0.1,MONGO_HOST_IP_ADDRESS`
+```
+bindIp: 127.0.0.1
+``` 
+to
+```
+bindIp: 127.0.0.1,MONGO_HOST_IP_ADDRESS
+```
 
 Update 
 ```
