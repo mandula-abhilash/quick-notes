@@ -24,6 +24,7 @@ sudo apt-get install vim
 ```
 apt update
 apt install ufw
+sudo ufw enable
 ufw allow OpenSSH
 ```
 
