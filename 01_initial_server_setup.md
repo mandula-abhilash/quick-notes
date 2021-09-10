@@ -59,3 +59,5 @@ sudo systemctl reload nginx
 sudo systemctl disable nginx
 sudo systemctl enable nginx
 ```
+
+<!-- Certbot https://gist.github.com/bradtraversy/cd90d1ed3c462fe3bddd11bf8953a896 -->
