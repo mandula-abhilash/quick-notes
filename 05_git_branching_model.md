@@ -1,5 +1,7 @@
 # Git Branching model  [source](https://nvie.com/posts/a-successful-git-branching-model/)
 
+#### git commands [source](https://www.nobledesktop.com/learn/git/git-branches)
+
 <img src="https://user-images.githubusercontent.com/77572066/132303731-1d3ed70b-2ac9-4769-ac5c-1d4938361257.png" height="400"></img>
 <!-- ![image](https://user-images.githubusercontent.com/77572066/132303731-1d3ed70b-2ac9-4769-ac5c-1d4938361257.png) -->
 
