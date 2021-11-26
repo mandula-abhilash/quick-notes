@@ -22,3 +22,13 @@ git push origin --delete old-branch
 
 git push -u origin new-branch
 ```
+
+#### Merge develop into master branch 
+
+```
+git checkout master
+
+git merge develop  # develop -> master
+
+git push origin master
+```
