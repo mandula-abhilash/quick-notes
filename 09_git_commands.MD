@@ -32,3 +32,14 @@ git merge develop  # develop -> master
 
 git push origin master
 ```
+
+#### Merge feature into develop branch 
+
+```
+git checkout develop
+
+git merge feature  # feature -> develop
+
+git push origin develop
+```
+
