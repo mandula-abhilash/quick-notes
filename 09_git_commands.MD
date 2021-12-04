@@ -43,3 +43,16 @@ git merge feature  # feature -> develop
 git push origin develop
 ```
 
+#### Keep feature branch up to date by merging develop branch into feature
+
+```
+git checkout develop
+
+git pull origin develop
+
+git checkout feature
+
+git merge develop
+
+git push origin feature
+```
