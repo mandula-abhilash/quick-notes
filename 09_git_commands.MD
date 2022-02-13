@@ -56,3 +56,11 @@ git merge develop
 
 git push origin feature
 ```
+
+#### Save temporary changes
+```
+git stash
+
+git stash pop
+
+```
