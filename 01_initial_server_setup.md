@@ -19,6 +19,12 @@ sudo apt-get install vim
 
 `usermod -aG sudo abhilash`
 
+`sudo visudo`
+
+Scroll down till the end of the /etc/sudoers file and append the mentioned below line
+
+`abhilash ALL=(ALL) NOPASSSWD:ALL `
+
 #### 5. Setting Up a Basic Firewall
 
 ```
