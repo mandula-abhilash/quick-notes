@@ -77,7 +77,7 @@ SCRIPTNAME=/etc/init.d/$NAME
 Start, stop reload commands
 
 ```
-sudo sytemctl daemon-reload 
+sudo systemctl daemon-reload 
 sudo systemctl start geoserver
 sudo systemctl status geoserver
 sudo systemctl stop geoserver
