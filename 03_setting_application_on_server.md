@@ -6,20 +6,22 @@ Ex: `git clone https://github.com/username/application.git`
 
 ##### 2. Install dependencies
 ```
-cd application
-npm install
 cd frontend/
 npm install
 npm run build
 
-pm2 start backend/server.js --name "server" -i max
+pm2 serve build 3000 --name "client"
 
-cd frontend/
-pm2 start node_modules/react-scripts/scripts/start.js --name "client"
-
+// pm2 start node_modules/react-scripts/scripts/start.js --name "client" -- before nodejs v19
 ```
 
 #### 3. Create .env file and add production environment values
 
 #### 4. Run express server using PM2
-`pm2 start backend/server.js --name "server" -i max`
+```
+cd backend/
+npm install
+
+pm2 start backend/server.js --name "server" -i max
+
+```
