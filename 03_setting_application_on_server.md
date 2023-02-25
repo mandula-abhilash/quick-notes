@@ -22,6 +22,6 @@ pm2 serve build 3000 --name "client"
 cd backend/
 npm install
 
-pm2 start backend/server.js --name "server" -i max
+pm2 start server.js --name "server" -i max
 
 ```
