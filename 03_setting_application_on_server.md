@@ -6,6 +6,10 @@ Ex: `git clone https://github.com/username/application.git`
 
 ##### 2. Install dependencies
 ```
+
+pm2 stop all	
+pm2 delete all
+
 cd frontend/
 npm install
 npm run build
