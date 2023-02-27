@@ -12,8 +12,12 @@ npm run build
 
 pm2 serve build 3000 --name "client"
 
+
+
 // pm2 start node_modules/react-scripts/scripts/start.js --name "client" -- before nodejs v19
 ```
+
+[pm2 cheat sheet](https://devhints.io/pm2)
 
 #### 3. Create .env file and add production environment values
 
