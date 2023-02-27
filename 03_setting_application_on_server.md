@@ -9,6 +9,7 @@ Ex: `git clone https://github.com/username/application.git`
 
 pm2 stop all	
 pm2 delete all
+pm2 flush
 
 cd frontend/
 npm install
