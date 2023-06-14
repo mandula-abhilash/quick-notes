@@ -31,7 +31,13 @@ pm2 serve build 3000 --name "client"
 cd backend/
 npm install
 
-pm2 start server.js --name "server" -i 6 // for 6
+pm2 start npm --name "pdf-gen-worker" -- run start:pdf-gen-worker
+
+// pm2 monit  # Monitor all processes
+// pm2 logs pdf-gen-worker  # View logs of the worker process
+
+pm2 start server.js --name "server" -i 5 // for 5
 pm2 start server.js --name "server" -i max // for max
+
 
 ```
