@@ -64,3 +64,12 @@ git stash
 git stash pop
 
 ```
+
+#### Git commands with alternate ssh key
+
+```
+GIT_SSH_COMMAND="ssh -i ~/.ssh/rdc_id_ed25519" git clone git@github.com:realdreamchronicles/dreams.git
+
+GIT_SSH_COMMAND="ssh -i ~/.ssh/rdc_id_ed25519" git pull origin main
+
+```
