@@ -67,7 +67,13 @@ git stash pop
 
 #### Git commands with alternate ssh key
 
+Use `GIT_SSH_COMMAND="ssh -i ~/.ssh/rdc_id_ed25519"` as prefix before each command (Git Bash) 
+
 ```
+GIT_SSH_COMMAND="ssh -i ~/.ssh/rdc_id_ed25519" git clone git@github.com:realdreamchronicles/dreams.git
+
+GIT_SSH_COMMAND="ssh -i ~/.ssh/rdc_id_ed25519" git pull origin main
+
 GIT_SSH_COMMAND="ssh -i ~/.ssh/rdc_id_ed25519" git clone git@github.com:realdreamchronicles/dreams.git
 
 GIT_SSH_COMMAND="ssh -i ~/.ssh/rdc_id_ed25519" git pull origin main
