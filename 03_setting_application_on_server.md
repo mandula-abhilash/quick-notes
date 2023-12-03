@@ -32,7 +32,7 @@ cd backend/
 npm install
 
 // Only flush the queues if needed
-// pm2 start npm --name "bullmq-queues-flush" -- run flush:bullmq-queues
+// npm run flush:bullmq-queues
 
 pm2 start npm --name "pdf-gen-worker" -- run start:pdf-gen-worker
 pm2 start npm --name "pdf-gen-worker" -- run start:reg-req-worker
