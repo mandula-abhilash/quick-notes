@@ -34,8 +34,9 @@ npm install
 // Only flush the queues if needed
 // npm run flush:bullmq-queues
 
-pm2 start npm --name "pdf-gen-worker" -- run start:pdf-gen-worker
 pm2 start npm --name "reg-req-worker" -- run start:reg-req-worker
+npm run build:pdf-gen-worker
+pm2 start npm --name "pdf-gen-worker" -- run prod:pdf-gen-worker
 
 // pm2 monit  # Monitor all processes
 // pm2 logs pdf-gen-worker  # View logs of the worker process
