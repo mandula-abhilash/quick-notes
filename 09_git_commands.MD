@@ -10,6 +10,12 @@ git commit -m "New feature: Label planning applications"
 git push origin feature/user-labels
 ```
 
+#### Fetch All Remote Branches
+
+If you need to switch to a branch that exists on the remote but not in your local repository, first fetch all branches:
+```
+git fetch --all
+```
 
 #### Rename branch name
 
